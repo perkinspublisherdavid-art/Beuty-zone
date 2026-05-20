@@ -40,6 +40,27 @@ body {
   font-family: var(--font-serif);
 }
 
+/* Gradient and deluxe aesthetic styles */
+.text-luxury-gold {
+  background: linear-gradient(135deg, #B58E58 0%, #E7DFC9 50%, #815F33 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-luxury-gold-glow {
+  background: radial-gradient(circle, rgba(231,223,201,0.15) 0%, rgba(250,249,246,0) 70%);
+}
+
+.border-luxury-gold {
+  border-image: linear-gradient(to right, #B58E58, #E7DFC9, #815F33) 1;
+}
+
+.glassmorphic-gold {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(181, 142, 88, 0.15);
+}
+
 /* Custom fade-in and smooth scroll animation details */
 html {
   scroll-behavior: smooth;

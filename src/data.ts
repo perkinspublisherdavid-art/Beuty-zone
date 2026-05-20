@@ -14,7 +14,8 @@ export const TREATMENTS: Treatment[] = [
     ],
     duration: '20 - 30 minutes',
     price: 'From £240',
-    recommendedFor: ['Fine lines', 'Frown lines', 'Forehead creases', 'Crow’s feet']
+    recommendedFor: ['Fine lines', 'Frown lines', 'Forehead creases', 'Crow’s feet'],
+    imageUrl: '/src/assets/images/anti_wrinkle_treatment_1779296129790.png'
   },
   {
     id: 'dermal-fillers',
@@ -29,7 +30,8 @@ export const TREATMENTS: Treatment[] = [
     ],
     duration: '45 - 60 minutes',
     price: 'From £350',
-    recommendedFor: ['Volume loss', 'Lip definition', 'Sagging contours', 'Tired under-eyes']
+    recommendedFor: ['Volume loss', 'Lip definition', 'Sagging contours', 'Tired under-eyes'],
+    imageUrl: '/src/assets/images/facial_contouring_1779296182503.png'
   },
   {
     id: 'profhilo',
@@ -44,7 +46,8 @@ export const TREATMENTS: Treatment[] = [
     ],
     duration: '30 minutes',
     price: 'From £300',
-    recommendedFor: ['Skin laxity', 'Dullness', 'Crepey skin', 'Dehydrated complexion']
+    recommendedFor: ['Skin laxity', 'Dullness', 'Crepey skin', 'Dehydrated complexion'],
+    imageUrl: 'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&q=80&w=600'
   },
   {
     id: 'microneedling',
@@ -59,7 +62,8 @@ export const TREATMENTS: Treatment[] = [
     ],
     duration: '45 minutes',
     price: 'From £160',
-    recommendedFor: ['Acne scarring', 'Enlarged pores', 'Pigmentation', 'Fine lines']
+    recommendedFor: ['Acne scarring', 'Enlarged pores', 'Pigmentation', 'Fine lines'],
+    imageUrl: 'https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&q=80&w=600'
   },
   {
     id: 'chemical-peels',
@@ -74,7 +78,8 @@ export const TREATMENTS: Treatment[] = [
     ],
     duration: '35 minutes',
     price: 'From £130',
-    recommendedFor: ['Congested skin', 'Acne & blemishes', 'Pigmentation', 'Uneven texture']
+    recommendedFor: ['Congested skin', 'Acne & blemishes', 'Pigmentation', 'Uneven texture'],
+    imageUrl: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=600'
   },
   {
     id: 'laser-skin',
@@ -89,7 +94,8 @@ export const TREATMENTS: Treatment[] = [
     ],
     duration: '45 minutes',
     price: 'From £220',
-    recommendedFor: ['Rosacea & redness', 'Sun damage', 'Pigmentation', 'Aura fine lines']
+    recommendedFor: ['Rosacea & redness', 'Sun damage', 'Pigmentation', 'Aura fine lines'],
+    imageUrl: 'https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?auto=format&fit=crop&q=80&w=600'
   },
   {
     id: 'iv-vitamin',
@@ -104,7 +110,8 @@ export const TREATMENTS: Treatment[] = [
     ],
     duration: '45 - 60 minutes',
     price: 'From £190',
-    recommendedFor: ['Chronic tiredness', 'Dull dry skin', 'Low immune health', 'Cellular toxic load']
+    recommendedFor: ['Chronic tiredness', 'Dull dry skin', 'Low immune health', 'Cellular toxic load'],
+    imageUrl: '/src/assets/images/iv_hydration_lounge_1779296156126.png'
   },
   {
     id: 'fat-dissolving',
@@ -119,7 +126,8 @@ export const TREATMENTS: Treatment[] = [
     ],
     duration: '30 - 45 minutes',
     price: 'From £260',
-    recommendedFor: ['Localized fat pockets', 'Double chin contour', 'Submental volume']
+    recommendedFor: ['Localized fat pockets', 'Double chin contour', 'Submental volume'],
+    imageUrl: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&q=80&w=600'
   },
   {
     id: 'btl-exilis',
@@ -134,7 +142,8 @@ export const TREATMENTS: Treatment[] = [
     ],
     duration: '30 - 45 minutes',
     price: 'From £180',
-    recommendedFor: ['Skin laxity', 'Frown lines', 'Sagging contours', 'Jowls reduction']
+    recommendedFor: ['Skin laxity', 'Frown lines', 'Sagging contours', 'Jowls reduction'],
+    imageUrl: '/src/assets/images/btl_exilis_1779294201301.png'
   },
   {
     id: 'mesotherapy',
@@ -149,7 +158,8 @@ export const TREATMENTS: Treatment[] = [
     ],
     duration: '45 minutes',
     price: 'From £150',
-    recommendedFor: ['Dullness', 'Dehydrated complexion', 'Fine lines', 'Fatigued skin']
+    recommendedFor: ['Dullness', 'Dehydrated complexion', 'Fine lines', 'Fatigued skin'],
+    imageUrl: '/src/assets/images/mesotherapy_1779294246050.png'
   },
   {
     id: 'coolsculpting',
@@ -164,7 +174,8 @@ export const TREATMENTS: Treatment[] = [
     ],
     duration: '60 minutes',
     price: 'From £350',
-    recommendedFor: ['Localized fat pockets', 'Double chin contour', 'Submental volume']
+    recommendedFor: ['Localized fat pockets', 'Double chin contour', 'Submental volume'],
+    imageUrl: '/src/assets/images/coolsculpting_1779294222713.png'
   },
   {
     id: 'massage-services',
@@ -179,7 +190,8 @@ export const TREATMENTS: Treatment[] = [
     ],
     duration: '60 - 90 minutes',
     price: 'From £110',
-    recommendedFor: ['Chronic tiredness', 'Somatic stress', 'Muscular tension & stiffness']
+    recommendedFor: ['Chronic tiredness', 'Somatic stress', 'Muscular tension & stiffness'],
+    imageUrl: '/src/assets/images/massage_services_1779294268845.png'
   }
 ];
 

@@ -376,10 +376,10 @@ export default function BookingForm({ selectedTreatmentIdFromProps, onResetSelec
             <form
               id="planner-right"
               onSubmit={handleSubmit}
-              className="lg:col-span-5 bg-emerald-950 p-6 md:p-8 rounded-2xl border border-gold-300/10 text-gold-200 shadow-xl flex flex-col justify-between"
+              className="lg:col-span-5 bg-gradient-to-br from-emerald-950 via-[#122219] to-emerald-900 p-8 rounded-3xl border border-gold-300/20 text-gold-200 shadow-2xl flex flex-col justify-between lg:sticky lg:top-28"
             >
               <div id="form-header" className="border-b border-gold-300/15 pb-5 mb-6">
-                <h3 className="font-serif-display text-lg text-white font-semibold uppercase tracking-wider">
+                <h3 className="font-serif-display text-lg text-white font-normal uppercase tracking-wider">
                   2. Patient Credentials
                 </h3>
               </div>

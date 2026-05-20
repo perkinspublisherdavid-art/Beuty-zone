@@ -7,6 +7,7 @@ export interface Treatment {
   duration: string;
   price: string;
   recommendedFor: string[];
+  imageUrl?: string;
 }
 
 export interface Practitioner {

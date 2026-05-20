@@ -9,22 +9,23 @@ export default function Hero({ onExplore, clinicImage }: HeroProps) {
   return (
     <section id="hero-section" className="relative bg-luxury-cream overflow-hidden py-16 lg:py-24 border-b border-emerald-950/5">
       {/* Absolute Decorative Background Elements */}
-      <div id="hero-background-circle-1" className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full bg-gold-100/30 blur-3xl -z-10 translate-x-1/2 -translate-y-1/4"></div>
-      <div id="hero-background-circle-2" className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-emerald-100/20 blur-3xl -z-10 -translate-x-1/3"></div>
+      <div id="hero-background-circle-1" className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full bg-amber-200/40 blur-3xl -z-10 translate-x-1/3 -translate-y-1/3"></div>
+      <div id="hero-background-circle-2" className="absolute bottom-0 left-0 w-[450px] h-[450px] rounded-full bg-emerald-300/25 blur-3xl -z-10 -translate-x-1/4 translate-y-1/4 animate-pulse"></div>
+      <div id="hero-background-circle-3" className="absolute top-1/4 left-1/3 w-[350px] h-[350px] rounded-full bg-rose-200/20 blur-3xl -z-10"></div>
 
       <div id="hero-container" className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         {/* Left Side: Copywriting & Value Propositions */}
         <div id="hero-left" className="lg:col-span-6 flex flex-col items-start text-left">
           {/* Tagline Badge */}
-          <div id="hero-badge" className="inline-flex items-center gap-2 bg-emerald-100/50 border border-emerald-950/5 text-emerald-900 px-3.5 py-1.5 rounded-full text-[11px] font-semibold tracking-wider uppercase mb-6">
-            <MapPin className="w-3.5 h-3.5 text-gold-600" />
+          <div id="hero-badge" className="inline-flex items-center gap-2 bg-gradient-to-r from-emerald-100/60 to-gold-100/60 border border-gold-300/30 text-emerald-950 px-4 py-2 rounded-full text-[11px] font-bold tracking-wider uppercase mb-6 shadow-sm">
+            <MapPin className="w-3.5 h-3.5 text-gold-600 animate-bounce" />
             Premier Medical Aesthetic Clinic • Chelsea, London
           </div>
 
-          {/* Majestic Hero Header */}
-          <h1 id="hero-title" className="font-serif-display text-4xl sm:text-5xl lg:text-6xl text-emerald-950 font-normal leading-[1.1] tracking-tight mb-6">
+          {/* Majestic Hero Header with luxury text-gradient */}
+          <h1 id="hero-title" className="font-serif-display text-4xl sm:text-5xl lg:text-[64px] text-emerald-950 font-normal leading-[1.08] tracking-tight mb-6">
             Clinical Excellence.<br />
-            <span className="italic font-light text-gold-600">Bespoke Wellness.</span>
+            <span className="italic font-light text-luxury-gold block mt-2">Bespoke Wellness.</span>
           </h1>
 
           {/* Under-title description */}
