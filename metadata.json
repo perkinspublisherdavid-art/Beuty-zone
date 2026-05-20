@@ -1,0 +1,6 @@
+{
+  "name": "Beauty Zone",
+  "description": "Premium clinical aesthetics, medical skin treatments, and wellness clinic located in the United Kingdom.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
